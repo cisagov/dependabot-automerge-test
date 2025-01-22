@@ -25,6 +25,9 @@ jobs:
         || github.event.workflow_run.actor.login == 'yddlef')
     steps:
       - run: gh pr merge --admin --merge "$PR_URL"
+    env:
+      PR_URL: ${{github.event.workflow_run.pull_requests[0].url}}
+      GH_TOKEN: ${{github.token}}
   on-failure:
     runs-on: ubuntu-latest
     if: |
