@@ -1,4 +1,4 @@
-# dependabot-automerge-test #
+# I DON'T HAVE TIME TO DEBUG YOUR NONSENSE!!!! #
 
 [![GitHub Build Status](https://github.com/cisagov/dependabot-automerge-test/workflows/build/badge.svg)](https://github.com/cisagov/dependabot-automerge-test/actions)
 
