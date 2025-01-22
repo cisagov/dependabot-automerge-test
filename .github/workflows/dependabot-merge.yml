@@ -24,6 +24,7 @@ jobs:
         || github.event.workflow_run.actor.login == 'jsf9k'
         || github.event.workflow_run.actor.login == 'yddlef')
     steps:
+      - uses: actions/checkout@v4
       - run: gh pr merge --admin --merge "$PR_URL"
     env:
       PR_URL: ${{github.event.workflow_run.pull_requests[0].url}}
