@@ -1,10 +1,12 @@
 ---
 name: Dependabot merge after build success
 
-on:
+on:  # yamllint disable-line rule:truthy
   workflow_run:
-    workflows: [build]
-    types: [completed]
+    workflows:
+      - build
+    types:
+      - completed
 
 permissions:
   contents: write
@@ -12,7 +14,7 @@ permissions:
 
 jobs:
   diagnostics:
-    name: "Diagnostics"
+    name: Diagnostics
     uses: felddy/reusable-workflows/.github/workflows/diagnostics.yml@v2
 
   on-success:
