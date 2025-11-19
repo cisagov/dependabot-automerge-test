@@ -1,6 +1,8 @@
 # dependabot-automerge-test #
 
 [![GitHub Build Status](https://github.com/cisagov/dependabot-automerge-test/workflows/build/badge.svg)](https://github.com/cisagov/dependabot-automerge-test/actions)
+[![License](https://img.shields.io/github/license/cisagov/dependabot-automerge-test)](https://spdx.org/licenses/)
+[![CodeQL](https://github.com/cisagov/dependabot-automerge-test/workflows/CodeQL/badge.svg)](https://github.com/cisagov/dependabot-automerge-test/actions/workflows/codeql-analysis.yml)
 
 This is a generic skeleton project that can be used to quickly get a
 new [cisagov](https://github.com/cisagov) GitHub project started.
