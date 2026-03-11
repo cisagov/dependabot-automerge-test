@@ -7,7 +7,7 @@ max-line-length = 80
 # * C4: Default errors and warnings reported by flake8-comprehensions -
 #   https://github.com/adamchainz/flake8-comprehensions#rules
 # * D: Documentation conventions compliance reported by pydocstyle -
-#   http://www.pydocstyle.org/en/stable/error_codes.html
+#   https://github.com/PyCQA/pydocstyle/blob/master/docs/error_codes.rst
 # * DUO: Default errors and warnings reported by dlint -
 #   https://github.com/dlint-py/dlint/tree/master/docs
 # * E: Default errors reported by pycodestyle -
