@@ -15,7 +15,7 @@ permissions:
 jobs:
   diagnostics:
     name: Diagnostics
-    uses: felddy/reusable-workflows/.github/workflows/diagnostics.yml@v2
+    uses: felddy/reusable-workflows/.github/workflows/diagnostics.yml@v3
 
   on-success:
     runs-on: ubuntu-latest
