@@ -1,4 +1,4 @@
-# dependabot-automerge-test #
+# The fish rots from the head #
 
 [![GitHub Build Status](https://github.com/cisagov/dependabot-automerge-test/workflows/build/badge.svg)](https://github.com/cisagov/dependabot-automerge-test/actions)
 [![License](https://img.shields.io/github/license/cisagov/dependabot-automerge-test)](https://spdx.org/licenses/)
